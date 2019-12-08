@@ -1,0 +1,1 @@
+[![Build Status](https://travis-ci.com/luben5691/Assignment2.svg?branch=master)](https://travis-ci.com/luben5691/Assignment2)
