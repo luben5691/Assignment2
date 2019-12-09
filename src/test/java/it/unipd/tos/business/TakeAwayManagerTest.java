@@ -83,7 +83,7 @@ public class TakeAwayManagerTest{
         TakeAwayManager testBill = new TakeAwayManager();
 
         thrown.expect(TakeAwayBillException.class);
-        thrown.expectMessage("Non ci possono essere più di 30 elementi nell'ordine");
+        thrown.expectMessage("Hai superato il limite di 30 elementi");
 
         for(int i = 1; i <= 40; i++)
             itemsOrdered.add(new MenuItem("Panino primavera", MenuItem.items.Panino, 4.00));
